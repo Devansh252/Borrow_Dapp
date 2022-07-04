@@ -5,7 +5,7 @@ import "./StableToken.sol";
 
 
 contract Vault {
-    string public name = " Stable Token Vault";
+    string public name = "Stable Token Vault";
     address public owner;
     CypherToken public cypherToken;
     StableToken public stableToken;
